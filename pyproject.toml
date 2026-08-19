@@ -1,0 +1,10 @@
+[project]
+name = "curlybench"
+version = "0.1.0"
+description = "Multi-tokenizer benchmark: tiktoken, and Hugging Face models for Curly Citation"
+requires-python = ">=3.10"
+dependencies = [
+    "tiktoken>=0.13.0",
+    "transformers[sentencepiece]>=5.15",
+    "torch>=2.13"
+]
